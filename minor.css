@@ -1,0 +1,444 @@
+body {
+  background-color: rgb(175, 69, 69);
+  text-align: left; /* Align text to the left */
+  margin: 0 auto;
+}
+.navbar {
+  height: 120px;
+  width: 100%;
+  background: rgba(234, 237, 64, 0.96);
+}
+
+.logo {
+  width: 100px;
+  height: 80px;
+  padding: 20px 100px;
+
+}
+
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 0 80px;
+  display: inline-block;
+  line-height: 40px;
+
+  list-style: none;
+
+  
+  margin-right: 20px;
+  padding: 10px 20px; /* Add padding to create space inside the box */
+  border: 2px solid #000; /* Add border */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  background-color: #ffffff52; /* Add background color */
+
+  padding-left: 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(44, 93, 218);
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.column {
+  width: calc(33.33% - 20px); /* Adjust the width as needed */
+  margin-bottom: 20px; /* Adjust the gap between rows */
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+/* Increase the size of headings */
+h1 {
+  font-size: 36px; /* Adjust the size as needed */
+}
+
+h2 {
+  font-size: 30px; /* Adjust the size as needed */
+}
+
+h3 {
+  font-size: 24px; /* Adjust the size as needed */
+}
+
+
+
+
+/* Change the color of text */
+.navbar a,
+
+
+
+
+.column p,
+.button-container button,
+.contact-container h2,
+.contact-container input,
+.contact-container textarea,
+.contact-container button{
+  color: #1a07ec; /* Specify the desired color using hex, RGB, or color name */
+}
+
+.container h1,
+.container1 h2,
+.container2 h2 {
+  color: #ec07ba;
+
+}
+
+.container p {
+  color:#07d9ec;
+}
+
+.container1 p{
+  color:#07d9ec;
+}
+
+.container2 p{
+  color: #07d9ec;
+}
+
+.container4 p {
+  color: #dc5a5a;
+}
+
+.container1 h2 {
+  font-size: 40px;
+}
+.container2 h2 {
+  font-size: 40px;
+}
+
+/* Center-align text in the home section */
+#home .container,
+.container1,
+.container2 {
+  text-align: center;
+}
+
+
+.video-grid {
+  text-align: center; /* Center align the videos */
+}
+
+.row {
+  display: inline-block; /* Display columns in one horizontal line */
+}
+
+.column {
+  width: 30%; /* Set fixed width for each column */
+  margin: 0 10px; /* Add margin for spacing */
+  display: inline-block; /* Display columns inline */
+  vertical-align: top; /* Align columns at the top */
+}
+
+
+.video-wrapper {
+  border: 2px solid #ccc; /* Add border around the video */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  overflow: hidden; /* Hide any overflowing content */
+  margin-bottom: 20px; /* Add some spacing between videos */
+  position: relative;
+  width: 30%;
+  padding-top: 56.25%;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.video-wrapper iframe {
+  display: block; /* Make iframe a block-level element */
+  width: 100%; /* Make iframe fill the container width */
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
+}
+
+.video-wrapper p {
+  text-align: center; /* Center-align the video title */
+  margin: 10px 0; /* Add some margin around the video title */
+}
+
+#view-more-container {
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.additional-recipes {
+  margin-top: 20px; /* Adjust as needed */
+}
+
+
+/* Style for the "View More Recipes" button */
+#view-more-btn {
+  background-color: #1a07ec;
+  color: hwb(160 92% 6%);
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+#view-more-btn:hover {
+  background-color: #dc5a5a;
+}
+
+/* Style for the additional recipes container */
+.additional-recipes {
+  margin-top: 20px;
+}
+
+/* Style for recipe columns */
+.column1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.row1::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style for images in the recipe columns */
+.column1 img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  padding-left: 20px; /* Adjust the left padding */
+  padding-right: 20px;
+}
+
+.container1 {
+  padding-left: 20px; /* Adjust the left padding */
+  padding-right: 20px;
+}
+
+.container2 {
+  padding-left: 20px; /* Adjust the left padding */
+  padding-right: 20px;
+}
+
+
+
+.container3{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit';
+  background: linear-gradient(#2a292991,#3a3939);
+}
+.contact-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.contact-left-title h2{
+  font-weight: 600;
+  color: #1edf0c;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.contact-left-title hr{
+  border: none;
+  width: 120px;
+  height: 5px;
+  background-color: #1edf0c;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.contact-inputs{
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #666;
+  border-radius: 50px;
+  
+  
+}
+.contact-left textarea{
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.contact-inputs:focus{
+  border: 2px solid #ff994f;
+}
+.contact-inputs::placeholder{
+  color: #a9a9a9;
+}
+.contact-left button{
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  font-size: 15px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg,#ff994f,#fa6d86);
+  cursor: pointer;
+}
+.contact-left button img{
+  height: 15px;
+}
+.contact-right img{
+  width: 500px;
+}
+@media (max-width:800px) {
+  .contact-inputs{
+    width: 80vw;
+  }
+  .contact-right{
+    display: none;
+  }
+}
+
+
+/* Style for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Style for the footer text */
+footer p {
+  margin: 0;
+}
+
+
+
+
+/* Add background images to sections */
+/* Add background color and image overlay to sections */
+/* Add background color to sections */
+#home {
+  background-color: #f0b14d; /* Choose your desired background color */
+}
+
+#about {
+  background-color: #7be859; /* Choose your desired background color */
+}
+
+#recipes {
+  background-color: #eda025; /* Choose your desired background color */
+}
+
+/* Position the image on the right side */
+.image-right {
+  display: inline-block;
+  width: 400px; /* Set the width of the image */
+  height: 300px; /* Maintain aspect ratio */
+  margin-left: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.container {
+  padding-left: 20px; /* Adjust the left padding */
+  padding-right: 20px;
+}
+
+/* Style for images in the "About" section */
+#about .column img {
+  width: 100%; /* Adjust the width as needed */
+  height: auto;
+  transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+/* Scale up the image in the "About" section when hovering */
+#about .column img:hover {
+  transform: scale(1.1); /* Scale the image to 1.1 times its original size */
+}
+
+/* Style for images in the "Home" section */
+#home .image-right {
+  width: 400px; /* Adjust the width as needed */
+  height: 300px; /* Maintain aspect ratio */
+  margin-left: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+/* Scale up the image in the "Home" section when hovering */
+#home .image-right:hover {
+  transform: scale(1.1); /* Scale the image to 1.1 times its original size */
+}
+
+
+
+
+
+
+
+/* Style for the "Home" section */
+#home {
+  background-color: #f0b14d; /* Set the background color */
+  background-image: url('https://img.freepik.com/free-photo/spring-bright-soup-with-meatballs-vegetables-copy-space_127032-2972.jpg?w=1060&t=st=1711966392~exp=1711966992~hmac=b12de9370f0cebf482f083aeb9f9a2e9c602216d315d3f5e6bafecb331c2653f'); /* Set the background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+}
+
+/* Style for the "About" section */
+#about {
+  background-color: #7be859; /* Set the background color */
+  background-image: url('https://img.freepik.com/free-photo/spring-bright-soup-with-meatballs-vegetables-copy-space_127032-2972.jpg?w=1060&t=st=1711966392~exp=1711966992~hmac=b12de9370f0cebf482f083aeb9f9a2e9c602216d315d3f5e6bafecb331c2653f'); /* Set the background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+}
+
+/* Style for the "Recipes" section */
+#recipes {
+  background-color: #eda025; /* Set the background color */
+  background-image: url('https://img.freepik.com/free-photo/spring-bright-soup-with-meatballs-vegetables-copy-space_127032-2972.jpg?w=1060&t=st=1711966392~exp=1711966992~hmac=b12de9370f0cebf482f083aeb9f9a2e9c602216d315d3f5e6bafecb331c2653f');
+}
+
+/* Style for the "Contact" section */
+#contact {
+  background-color: #2a2929; /* Set the background color */
+  /* You can add a background image here if needed */
+}
